@@ -1,4 +1,9 @@
 .odd {
     background-color: rgb(230,0,100);
     font-family: Verdana, DejaVu Sans, sans-serif;
-}/* Add CSS Styling */
+}
+
+#second {
+    color: rgb(0,100,255);
+    font-size: 36px;
+}
