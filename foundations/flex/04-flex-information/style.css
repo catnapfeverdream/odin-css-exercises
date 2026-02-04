@@ -13,6 +13,26 @@ img {
   text-align: center;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.all {
+  padding: 15px 40px;
+  gap: 20px;
+  flex: 1;
+}
+
+.items {
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
