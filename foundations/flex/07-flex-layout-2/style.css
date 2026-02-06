@@ -9,19 +9,27 @@ body {
 a {
   text-decoration: none;
   color: #ffffff;
+  font-size: 24px;
 }
 
 ul {
   list-style-type: none;
-  margin-block: 0;
+  margin: 0;
   padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 .header {
   background: darkmagenta;
   color: white;
   font-weight: 900;
-  padding: 10px;
+  font-size: 32px;
+  padding: 16px;
+  display: flex;
+  align-content: center;
 }
 
 .footer {
@@ -37,7 +45,7 @@ ul {
   background: royalblue;
   box-sizing: border-box;
   display: flex;
-  width: 200px;
+  width: 300px;
   justify-content: flex-start;
   padding: 16px;
   min-height: 100vh;
@@ -49,19 +57,18 @@ ul {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 255px;
-  height: 265px;
-  padding: 8px;
+  padding: 16px;
+  min-height: 250px;
 }
 
 .all-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   gap: 16px;
-  padding: 15px;
+  padding: 48px;
 }
 
 .container {
   display: flex;
+  flex: 1;
 }
